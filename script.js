@@ -1,5 +1,5 @@
 document.getElementById('cadastroForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Impede o envio do formulário para o servidor
+    event.preventDefault(); 
 
     const nome = document.getElementById('nome').value;
     const email = document.getElementById('email').value;
