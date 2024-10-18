@@ -1,8 +1,9 @@
-body {
+tbody {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .container {
@@ -71,8 +72,4 @@ th {
 
 tbody tr:nth-child(even) {
     background-color: #f9f9f9;
-}
-
-tr {
-    text-align: center;
 }
