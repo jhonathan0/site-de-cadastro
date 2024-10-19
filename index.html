@@ -28,40 +28,10 @@
                 </tr>
             </thead>
             <tbody>
-                
             </tbody>
         </table>
     </div>
 
     <script src="script.js"></script>
-</body>
-</html>
-        form.addEventListener('submit', function(event) {
-            event.preventDefault();
-
-            omEmaile e 
-            const nome = document.getElementById('nome').value;
-            const email = document.getElementById('email').value;
-
-        
-            const newRow = document.createElement('tr');
-            const nomeCell = document.createElement('td');
-            const emailCell = document.createElement('td');
-
-           
-            nomeCell.textContent = nome;
-            emailCell.textContent = email;
-
-           
-            newRow.appendChild(nomeCell);
-            newRow.appendChild(emailCell);
-
-           
-            tableBody.appendChild(newRow);
-
-           
-            form.reset();
-        });
-    </script>
 </body>
 </html>
